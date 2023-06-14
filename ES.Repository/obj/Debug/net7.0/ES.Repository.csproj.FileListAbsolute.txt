@@ -1,0 +1,17 @@
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Repository.deps.json
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Repository.runtimeconfig.json
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Repository.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Repository.pdb
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.AssemblyReference.cache
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.GeneratedMSBuildEditorConfig.editorconfig
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.AssemblyInfoInputs.cache
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.AssemblyInfo.cs
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.CoreCompileInputs.cache
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\refint\ES.Repository.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.pdb
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.genruntimeconfig.cache
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ref\ES.Repository.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Domain.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Domain.pdb
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.CopyComplete
