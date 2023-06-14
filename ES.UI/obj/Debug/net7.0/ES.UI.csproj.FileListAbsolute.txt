@@ -84,3 +84,4 @@ G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.UI\obj
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.UI\obj\Debug\net7.0\ES.UI.pdb
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.UI\obj\Debug\net7.0\ES.UI.genruntimeconfig.cache
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.UI\obj\Debug\net7.0\ref\ES.UI.dll
+G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.UI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

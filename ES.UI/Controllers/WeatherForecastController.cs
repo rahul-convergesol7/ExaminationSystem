@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authentication;
 namespace ES.UI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -19,8 +21,9 @@ namespace ES.UI.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public  IEnumerable<WeatherForecast> Get()
         {
+            try { 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -28,6 +31,16 @@ namespace ES.UI.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+            }
+
+            catch (UnauthorizedAccessException)
+            {
+                return Enumerable.Empty<WeatherForecast>();
+            }
+            catch (Exception)
+            {
+                return Enumerable.Empty<WeatherForecast>();
+            }
         }
     }
 }

@@ -70,7 +70,7 @@ namespace ES.UI.Controllers
                 }
             }
 
-            return StatusCode(401,"Unauthorized")''
+            return Content("Login Unsuccessfull Try Again");
         }
 
         private string GenerateJwtToken(ApplicationUser user)
@@ -96,6 +96,3 @@ namespace ES.UI.Controllers
         }
     }
 }
-
-
-//Something Changes

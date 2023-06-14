@@ -13,6 +13,10 @@ namespace ES.Domain.Persistence
     {
         public ExaminationDbContext(DbContextOptions<ExaminationDbContext> options) : base(options) { }
 
+        public DbSet<QuestionMaster> QuestionMasters { get; set; }
+
+        public DbSet<OptionMaster> OptionMasters { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
