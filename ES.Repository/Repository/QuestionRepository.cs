@@ -11,9 +11,10 @@ using System.Threading.Tasks;
 
 namespace ES.Repository.Repository
 {
-   
+
     public class QuestionRepository : IQuestionRepository
     {
+
         private readonly ExaminationDbContext _examinationDbContext;
 
         public QuestionRepository(ExaminationDbContext examinationDbContext)
@@ -21,51 +22,67 @@ namespace ES.Repository.Repository
             _examinationDbContext = examinationDbContext;
         }
 
-        public async Task AddOptionAsync(OptionMaster option)
+        public void AddOption(OptionMaster option)
         {
             _examinationDbContext.OptionMasters.Add(option);
-            await _examinationDbContext.SaveChangesAsync();
+            _examinationDbContext.SaveChanges();
         }
 
-        public async Task<int> CreateQuestionAsync(QuestionMaster question)
-        {
-            _examinationDbContext.QuestionMasters.Add(question);
-            await _examinationDbContext.SaveChangesAsync();
-            return question.Id;
-        }
 
-        public async Task DeleteQuestionAsync(int id)
+        public void DeleteOption(int optionId)
         {
-            var question = await _examinationDbContext.QuestionMasters.FindAsync(id);
-            if (question != null)
+            var option = _examinationDbContext.OptionMasters.Find(optionId);
+            if (option != null)
             {
-                _examinationDbContext.QuestionMasters.Remove(question);
-                await _examinationDbContext.SaveChangesAsync();
+                _examinationDbContext.OptionMasters.Remove(option);
+                _examinationDbContext.SaveChanges();
             }
         }
 
-        public async Task<IEnumerable<QuestionMaster>> GetAllQuestionsAsync()
+        public OptionMaster GetOption(int optionId)
         {
-            return await _examinationDbContext.QuestionMasters.ToListAsync();
+            return _examinationDbContext.OptionMasters.Find(optionId);
         }
 
-        public async Task<OptionMaster> GetOptionByIdAsync(int id)
+        public void UpdateOption(OptionMaster option)
         {
-            return await _examinationDbContext.OptionMasters.FindAsync(id);
+            _examinationDbContext.Entry(option).State = EntityState.Modified;
+            _examinationDbContext.SaveChanges();
         }
 
-        public async Task<QuestionMaster> GetQuestionByIdAsync(int id)
+        public QuestionMaster GetQuestion(int questionId)
         {
-            return await _examinationDbContext.QuestionMasters.FindAsync(id);
+            return _examinationDbContext.QuestionMasters
+          .Include(q => q.Options)
+          .SingleOrDefault(q => q.Id == questionId);
         }
 
-      
-        public async Task UpdateQuestionAsync(QuestionMaster question)
+        public void DeleteQuestion(int questionId)
         {
+            var question = _examinationDbContext.QuestionMasters.Find(questionId);
+            if (question != null)
+            {
+                _examinationDbContext.QuestionMasters.Remove(question);
+                _examinationDbContext.SaveChanges();
+            }
+        }
 
-
+        public void UpdateQuestion(QuestionMaster question)
+        {
             _examinationDbContext.Entry(question).State = EntityState.Modified;
-            await _examinationDbContext.SaveChangesAsync();
+            _examinationDbContext.SaveChanges();
+        }
+
+        public void AddQuestion(QuestionMaster question)
+        {
+            _examinationDbContext.QuestionMasters.Add(question);
+            _examinationDbContext.SaveChanges();
+        }
+
+        public void GetAllQuestion()
+        {
+            _examinationDbContext.QuestionMasters.ToList();
+            _examinationDbContext.SaveChanges();
         }
     }
 }

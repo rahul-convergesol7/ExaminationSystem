@@ -12,3 +12,17 @@ G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Domain
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Domain\obj\Debug\net7.0\ES.Domain.pdb
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Domain\obj\Debug\net7.0\ES.Domain.genruntimeconfig.cache
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Domain\obj\Debug\net7.0\ref\ES.Domain.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\bin\Debug\net7.0\ES.Domain.deps.json
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\bin\Debug\net7.0\ES.Domain.runtimeconfig.json
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\bin\Debug\net7.0\ES.Domain.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\bin\Debug\net7.0\ES.Domain.pdb
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.csproj.AssemblyReference.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.AssemblyInfoInputs.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.AssemblyInfo.cs
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.csproj.CoreCompileInputs.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\refint\ES.Domain.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.pdb
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ES.Domain.genruntimeconfig.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Domain\obj\Debug\net7.0\ref\ES.Domain.dll

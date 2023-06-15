@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.UI\\ES.UI.csproj": {}
+    "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.UI\\ES.UI.csproj": {}
   },
   "projects": {
-    "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj": {
+    "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj",
+        "projectUniqueName": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj",
         "projectName": "ES.Domain",
-        "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj",
-        "packagesPath": "C:\\Users\\CS-DC-03\\.nuget\\packages\\",
-        "outputPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\obj\\",
+        "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj",
+        "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CS-DC-03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -85,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\ES.Repository.csproj": {
+    "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\ES.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\ES.Repository.csproj",
+        "projectUniqueName": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\ES.Repository.csproj",
         "projectName": "ES.Repository",
-        "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\ES.Repository.csproj",
-        "packagesPath": "C:\\Users\\CS-DC-03\\.nuget\\packages\\",
-        "outputPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\obj\\",
+        "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\ES.Repository.csproj",
+        "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CS-DC-03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +117,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj": {
-                "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj"
+              "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj": {
+                "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj"
               }
             }
           }
@@ -151,6 +155,10 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -174,21 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.UI\\ES.UI.csproj": {
+    "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.UI\\ES.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.UI\\ES.UI.csproj",
+        "projectUniqueName": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.UI\\ES.UI.csproj",
         "projectName": "ES.UI",
-        "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.UI\\ES.UI.csproj",
-        "packagesPath": "C:\\Users\\CS-DC-03\\.nuget\\packages\\",
-        "outputPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.UI\\obj\\",
+        "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.UI\\ES.UI.csproj",
+        "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CS-DC-03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,17 +204,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj": {
-                "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Domain\\ES.Domain.csproj"
+              "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj": {
+                "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Domain\\ES.Domain.csproj"
               },
-              "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\ES.Repository.csproj": {
-                "projectPath": "G:\\Trainee\\Work\\ASP.Net Core\\#Projects\\1.API\\ExaminationSystemSolution\\ES.Repository\\ES.Repository.csproj"
+              "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\ES.Repository.csproj": {
+                "projectPath": "C:\\ASP.net Core\\CRUD Operation\\API\\ExaminationSystem\\ES.Repository\\ES.Repository.csproj"
               }
             }
           }
@@ -247,6 +256,10 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -277,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

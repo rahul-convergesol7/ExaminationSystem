@@ -15,3 +15,20 @@ G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Reposi
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Domain.dll
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\bin\Debug\net7.0\ES.Domain.pdb
 G:\Trainee\Work\ASP.Net Core\#Projects\1.API\ExaminationSystemSolution\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.CopyComplete
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Repository.deps.json
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Repository.runtimeconfig.json
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Repository.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Repository.pdb
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Domain.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\bin\Debug\net7.0\ES.Domain.pdb
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.AssemblyReference.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.AssemblyInfoInputs.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.AssemblyInfo.cs
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.CoreCompileInputs.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.csproj.CopyComplete
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\refint\ES.Repository.dll
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.pdb
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ES.Repository.genruntimeconfig.cache
+C:\ASP.net Core\CRUD Operation\API\ExaminationSystem\ES.Repository\obj\Debug\net7.0\ref\ES.Repository.dll
